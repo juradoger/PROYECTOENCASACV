@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+   --color_text_titulo:black;
+   --text_type:'Grey Qo'; 
+}
+#ResPrincipal{
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+p{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight:bold;
+}
+#barra{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 72px;
+    font-weight:bold;
+}
+body{
+    background-color: aquamarine;
+}
+.titulo_principal .titulo_principal_primero:first-child {
+   color: var(--color_text_titulo);
+   font-family:  var(--text_type);
+}
+p::first-line{
+    color: blueviolet;
+}
+p::first-letter{
+    font-family: 'Grey Qo', cursive;
+}
