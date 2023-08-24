@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color_text_titulo: black;
+    --font-text: 'Grey Qo', cursive;
+    --text-size: 10vw;
+    --text-margin: 4cm;
+}
+
+body {
+    background-color: #b9deb0;
+}
+
+.titulo {
+    background-image: url(/src/Imagen31.png);
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.divicono {
+    text-align: center;
+    padding: 20px;
+}
+
+.icono {
+    width: 90px;
+    height: 90px;
+    justify-content: space-around;
+}
+
+.descripcion {
+    text-decoration: underline;
+    font-family: 'Genos', sans-serif;
+    font-size: 28px;
+}
+
+.titulo_principal {
+    line-height: 3cm;
+}
+
+.titulo .titulo_principal .titulo_principal_primero:first-child {
+    color: var(--color_text_titulo);
+    font-family: var(--font-text);
+    font-size: var(--text-size);
+    margin-left: var(--text-margin);
+    list-style-type: none;
+}
+
+.titulo_principal_segundo {
+    margin-left: 2cm;
+    font-family: 'Aladin', cursive;
+    font-size: 96px;
+    list-style-type: none;
+}
+
+.titulo_principal_tercero {
+    font-family: 'Inspiration', cursive;
+    font-size: 128px;
+    margin-left: 6cm;
+    list-style-type: none;
+}
+
+.barra_nav_contenido {
+    padding: 0cm 0.5cm;
+    font-family: 'Georama', sans-serif;
+    font-size: 44px;
+    text-decoration: none;
+    border-right: 2px solid black;
+    color: #0E063C;
+}
+
+.barra_nav {
+    text-align: center;
+    padding: 0.5cm 1cm;
+    background-color: rgb(32, 147, 179);
+    border: 2px solid black;
+    border-radius: 88px;
+}
+
+.fondo_img {
+    background-image: url(/src/Imagen12fondito.png);
+    width: 80%;
+    height: 400px;
+    margin-top: 1cm;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 1cm;
+}
+
+.img-photosmias {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+.img-photosmias_bebe {
+    width: 8cm;
+    height: 10cm;
+    border-radius: 88px;
+    border: 3px solid black;
+    z-index: 1;
+}
+
+.img-photosmias_cumple {
+    width: 6cm;
+    height: 8cm;
+    border-radius: 28px;
+    border: 3px solid black;
+    z-index: 4;
+}
+
+.img-photosmias_actual {
+    width: 4cm;
+    height: 7cm;
+    border-radius: 88px;
+    border: 3px solid black;
+    z-index: 1;
+}
+
+.fondo_img_titulo {
+    font-family: 'Inspiration', cursive;
+    font-weight: lighter;
+    font-size: 96px;
+    color: rgb(0, 0, 0);
+    margin-left: 4cm;
+}
+
+#ResPrincipal {
+    color: rgb(103, 72, 132);
+    font-family: 'Kite One', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-left: 1cm;
+    text-shadow: 6px 2px 2px black;
+
+}
+
+.ResPrincipal::first-line {
+    color: rgb(198, 196, 201);
+    font-family: 'Kalam', cursive;
+    font-size: 29px;
+    padding-top: 2cm;
+    margin-left: 1cm;
+}
+
+.ResPrincipal {
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    margin-left: 1cm;
+    text-align: left;
+    line-height: 40px;
+}
+
+.miperfil {
+    width: 100%;
+    text-align: center;
+    padding: 2cm;
+}
+
+.miperfil_title {
+    font-family: 'Give You Glory', cursive;
+    font-size: 98px;
+    color: black;
+    text-shadow: 6px 2px 2px black;
+    background-color: beige;
+    background: linear-gradient(90deg, rgb(93, 146, 156), rgb(84, 96, 172));
+    border-bottom-left-radius: 88px;
+}
+
+.nacimiento {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 64px;
+}
+
+.miperfil_content,
+h5 {
+    font-family: 'Georama', sans-serif;
+    font-size: 24px;
+    word-spacing: 3px;
+}
+
+.permiso {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 34px;
+}
+
+.permiso_desc {
+    font-family: 'Georama', sans-serif;
+    font-size: 24px;
+    word-spacing: 3px;
+    color: rgb(77, 77, 116);
+}
+
+.fondoun {
+    background: linear-gradient(90deg, rgb(136, 210, 122), rgb(50, 79, 50));
+    border-radius: 66px;
+}
+
+#Titulouno {
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: aquamarine;
+    text-shadow: 6px 2px 2px black;
+    font-size: 68px;
+}
+
+#titulo2 {
+    font-family: 'Island Moments', cursive;
+    font-size: 98px;
+    text-align: center;
+}
+
+.fondo2 {
+    text-align: center;
+    margin-top: 2cm;
+    width: 100%;
+}
+
+.skilltitle {
+    text-align: center;
+    text-shadow: 6px 2px 2px white;
+    font-family: 'Island Moments', cursive;
+    font-size: 68px;
+}
+
+.imgsdeLogos1 {
+    width: 80%;
+    margin-left: 3.5cm;
+}
+
+.fondoamatrian {
+    text-align: left;
+    font-family: 'Kite One', sans-serif;
+    font-size: 24px;
+    margin-left: 3cm;
+    background: radial-gradient(20cm, rgb(216, 230, 123), rgb(134, 161, 122));
+    padding: 1cm;
+}
+
+.titulo_experla {
+    font-family: 'Aladin', cursive;
+    font-size: 98px;
+    text-align: center;
+    padding-bottom: 1cm;
+    text-shadow: 6px 2px 2px rgb(84, 196, 194);
+}
+
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: rgb(47, 47, 71);
+    background-color: rgb(97, 153, 125);
+    padding: 1cm;
+}
+
+footer {
+
+    font-family: 'Genos', sans-serif;
+    border-top: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 17px;
+    font-size: 17px;
+
+    .datosPersonales {
+        & input {
+            text-transform: capitalize;
+        }
+    }
+
+    & li {
+        list-style-type: none;
+    }
+
+    & label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    & input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #5a838f;
+        border-radius: 5px;
+        margin-bottom: 17px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+
+    & button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: greenyellow;
+        color: rgb(77, 77, 113);
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        background-color: bisque;
+    }
+}
+
+
+/*  */
+
+.contenedor-imagenes {
+    position: relative;
+}
+
+.img-photosmias_cumple {
+    width: 500px;
+    height: 700px;
+}
+
+.img-photosmias_bebe,
+.img-photosmias_actual {
+    position: absolute;
+    object-fit: cover;
+}
+
+.img-photosmias_actual {
+    top: -100px;
+    right: -100px;
+    width: 250px;
+    height: 400px;
+}
+
+.img-photosmias_bebe {
+    bottom: -100px;
+    left: -100px;
+    width: 250px;
+
+}
