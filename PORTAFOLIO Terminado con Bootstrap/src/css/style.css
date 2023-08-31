@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #b9deb0;
+}
+
+.contenedor-titulo {
+    background-image: url(/src/Imagen31.png);
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.contenedor-titulo .titulo:first-child{
+    font-family: 'Grey Qo', cursive;
+    font-size: 10vw; 
+    margin-left: 15%;
+}
+.contenedor-titulo .titulo:nth-child(2){
+    font-family: 'Aladin', cursive;
+    font-size: 8vw;
+    margin-left: 10%;
+}
+.contenedor-titulo .titulo:last-child{
+    font-family: 'Inspiration', cursive;
+    font-size: 12vw;
+    margin-left: 18%;
+}
+.icon-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-redes .circulo {
+    width: 8vw;
+    height: 8vw;
+    font-size: 5vw;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-redes .circulo:hover{
+    background-color: #5a838f;
+}
+.info-redes{
+   font-weight: bold;
+   font-family: 'Genos', sans-serif;
+   font-size: 2vw;
+   
+}
+#menu-principal{
+    font-size: 3vw;
+    background-color:rgb(32, 147, 179) !important;
+    border: solid 2px black;
+    margin: 6px;
+    border-radius: 88px;
+}
+#menu-principal #menu-principal-contenido ul li a{
+    color: #0E063C !important;
+    font-weight: 600;
+}
+#menu-principal #menu-principal-contenido ul li a:hover{
+    color: whitesmoke !important;
+    font-weight: 600;
+}
+@media (max-width: 820px) {
+    #menu-principal #menu-principal-contenido ul{
+       margin-left: 5% !important;
+    }
+    #btn-menu{
+        margin-left: 5%;
+        color: black !important;
+        background-color: #D6EAF8;
+        border: 1px solid black;
+    }
+    #fondo-perfil .fondo-perfil-txt{
+        width: 100%;
+        max-width: 100%;
+        margin: 0px 0px 0px 0px !important;
+    }
+    .foto-perfil{
+        margin:5px !important;
+    }
+    .foto-perfil img{
+        width: 85% !important;       
+    }
+    .fondo_img_titulo {
+        font-size: 11vw !important;
+    }   
+    #ResPrincipal {
+        font-size: 5vw !important;
+    }   
+    .ResPrincipal::first-line {
+        line-height: 2.5vw;
+        font-size: 4vw !important;
+
+    }   
+    .ResPrincipal {
+        line-height: 7vw !important;
+        font-size: 4vw !important;
+    }
+    .foto-perfil img{
+        width: 50% !important;
+        margin-left: 5em !important;
+    }
+
+}
+#fondo-perfil{
+    background-image: url(../imgcielo.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+#fondo-perfil .fondo-perfil-txt{
+    width: 80%;
+    max-width: 80%;
+    margin: 10px 10px 10px 15px;
+}
+.foto-perfil img{
+    width: 100%;
+    margin-left: -30%;
+}
+.fondo_img_titulo {
+    font-family: 'Inspiration', cursive;
+    font-weight: lighter;
+    font-size: 8vw;
+    color: rgb(0, 0, 0);
+    margin-left: 1em;
+}
+
+#ResPrincipal {
+    color: rgb(103, 72, 132);
+    font-family: 'Kite One', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    margin-left: 1em;
+    text-shadow: 6px 2px 2px black;
+
+}
+
+.ResPrincipal::first-line {
+    color: rgb(198, 196, 201);
+    font-family: 'Kalam', cursive;
+    font-size: 3.2vw;
+    padding-top: 2cm;
+    margin-left: 1cm;
+}
+
+.ResPrincipal {
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 3vw;
+    margin-left: 1cm;
+    text-align: left;
+    line-height: 40px;
+}
+.miperfil {
+    width: 100%;
+    text-align: center;
+    padding: 2cm;
+}
+
+.miperfil_title {
+    font-family: 'Give You Glory', cursive;
+    font-size: 10vw;
+    color: black;
+    text-shadow: 6px 2px 2px black;
+    background-color: beige;
+    background: linear-gradient(90deg, rgb(93, 146, 156), rgb(84, 96, 172));
+    border-bottom-left-radius: 88px;
+}
+
+.nacimiento {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 5vw;
+}
+
+.miperfil_content,
+h5 {
+    font-family: 'Georama', sans-serif;
+    font-size: 3vw;
+    word-spacing: 3px;
+}
+
+.permiso {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 3vw;
+}
+
+.permiso_desc {
+    font-family: 'Georama', sans-serif;
+    font-size: 2vw;
+    color: rgb(77, 77, 116);
+}
+
+.fondoun {
+    background: linear-gradient(90deg, rgb(136, 210, 122), rgb(50, 79, 50));
+    border-radius: 66px;
+}
+
+#Titulouno {
+    text-align: center;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: aquamarine;
+    text-shadow: 6px 2px 2px black;
+    font-size: 10vw !important;
+}
+
+#titulo2 {
+    font-family: 'Island Moments', cursive;
+    font-size: 9vw;
+    text-align: center;
+}
+
+.fondo2 {
+    text-align: center;
+    margin-top: 2cm;
+    width: 100%;
+}
+
+.skilltitle {
+    text-align: center;
+    text-shadow: 6px 2px 2px white;
+    font-family: 'Island Moments', cursive;
+    font-size: 6vw;
+}
+
+.imgsdeLogos1 {
+    width: 80%;
+    margin-left: 3.5cm;
+}
+
+.fondoamatrian {
+    text-align: left;
+    font-family: 'Kite One', sans-serif;
+    font-size: 1vw;
+    margin-left: 3cm;
+    background: radial-gradient(20cm, rgb(216, 230, 123), rgb(134, 161, 122));
+    padding: 1cm;
+}
+
+.titulo_experla {
+    font-family: 'Aladin', cursive;
+    font-size: 8vw;
+    text-align: center;
+    padding-bottom: 1cm;
+    text-shadow: 6px 2px 2px rgb(84, 196, 194);
+}
+
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color: rgb(47, 47, 71);
+    background-color: rgb(97, 153, 125);
+    padding: 1cm;
+}
+
+footer {
+
+    font-family: 'Genos', sans-serif;
+    border-top: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 17px;
+    font-size: 2vw;
+
+    .datosPersonales {
+        & input {
+            text-transform: capitalize;
+        }
+    }
+
+    & li {
+        list-style-type: none;
+    }
+
+    & label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    & input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #5a838f;
+        border-radius: 5px;
+        margin-bottom: 17px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+
+    & button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: greenyellow;
+        color: rgb(77, 77, 113);
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        background-color: bisque;
+    }
+}
